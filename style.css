@@ -1,0 +1,48 @@
+.top {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display:table
+}
+#t1 {
+    color: cyan;
+    text-align: center;
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+}
+#t2 {
+    color: white;
+    text-align: center;
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+}
+#bel {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -725px;
+    background-color: white;
+    width: 2000px;
+    height: 800px;
+}
+#text {
+    width: 1600px;
+    height: 300px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background-color: rgb(9, 90, 26);
+}
+body {
+    background-color: rgb(108, 224, 97);
+}
+button {
+    width: 600px;
+    height: 200px;
+}
+.colorize {
+    background-color: brown;
+}
